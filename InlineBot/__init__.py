@@ -5,7 +5,7 @@
 import os
 
 API_HASH = os.environ.get("API_HASH", "")
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = float(os.environ.get("APP_ID", ""))
 DB_URI = os.environ.get("DATABASE_URL", "")
 BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 TG_BOT_WORKERS = int(os.environ.get("BOT_WORKERS", '4'))
